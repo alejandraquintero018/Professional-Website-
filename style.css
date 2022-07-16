@@ -1,0 +1,55 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24242c;
+}
+/* styling my header page */
+.flex-container{
+    background-color: #fefaec;
+    width: 100%;
+    color:#24242c;
+    display:flex;
+    position: absolute;
+    justify-content: space-between;
+}
+.link{
+    font-size: large;
+}
+ul{
+    list-style-type: none;
+    margin: 4px;
+    padding: 4px;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(222, 78, 34);
+}
+/* styling the about me page*/ 
+#Get-To-Know-Me {
+    width: 100%;
+    background-color: #fefaec;
+}
+
+#Projects{
+    color: #fefaec;
+}
+
+.screenshots{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.avatar{
+ width: 500px;
+ height: 500px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    color:#fefaec;
+    background-color: #24242c;
+}
