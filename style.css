@@ -1,35 +1,89 @@
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     color: #24242c;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+p{
+    padding:1%;
+    padding-left: 5%;
+    text-indent: 3%;
+}
+h1{
+    font-size: 90px;
+    padding: 25px;
+}
+
+h2{
+    font-size: 200%;
+    display:flex;
+    padding: 1%;
 }
 /* styling my header page */
 .flex-container{
     background-color: #fefaec;
     width: 100%;
-    color:#24242c;
+    color:rgb(222, 78, 34);
     display:flex;
-    position: absolute;
-    justify-content: space-between;
-}
-.link{
-    font-size: large;
-}
-ul{
-    list-style-type: none;
-    margin: 4px;
-    padding: 4px;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
 }
 
-main {
-    width: 100%;
-    background-color: rgb(222, 78, 34);
+
+/* styling for my links*/
+
+ul{
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 12px;
+    color:rgb(222, 78, 34);
+    flex-shrink: 0;
 }
+
+li{
+    display: inline;
+    padding: 12px;
+    color:rgb(222, 78, 34);
+}
+
+a:visited{
+    color: inherit;
+}
+
 /* styling the about me page*/ 
 #Get-To-Know-Me {
     width: 100%;
     background-color: #fefaec;
 }
+
+.avatar{
+    width: 500px;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%;
+   }
+
+   #box{
+    display: inline-flex; 
+    align-content: flex-end;
+    justify-content: space-around;  
+    flex-direction: column;
+}
+
+.description{
+ min-width: 500px;
+ max-width: 500px;
+}
+   
+/* Styling the main part of my page*/
+   main {
+    width: 100%;
+    background-color: rgb(222, 78, 34);
+    height: 50%;
+   }
 
 #Projects{
     color: #fefaec;
@@ -40,16 +94,34 @@ main {
     max-height: 50%;
 }
 
-.avatar{
- width: 500px;
- height: 500px;
+@media  (max-width: 990px) {
+    #something{
+        width: auto;
+    }
+}
+
+@media and (max-width: 550px) {
+
+}
+
+
+
+footer{
+    color:#fefaec;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #24242c;
+    width: 100%;
+}
+
+#container{
+    justify-content: center;
+    width: 100%;
+    display:flex;
 }
 
 .icon{
     width: 50px;
     height: 50px;
-}
-footer{
-    color:#fefaec;
-    background-color: #24242c;
+    padding: 2%;
 }
