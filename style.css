@@ -2,7 +2,6 @@
 body{
     color: #24242c;
     font-family: 'Poppins';
-    box-sizing: border-box;
 }
 
 p{
@@ -30,8 +29,7 @@ h2{
     flex-wrap: wrap;
 }
 
-
-/* styling for my links*/
+/* styling for my navigation*/
 
 ul{
     list-style-type: none;
@@ -58,45 +56,57 @@ a:visited{
     background-color: #fefaec;
 }
 
+#box{
+    justify-content: flex-start;  
+    flex-direction: row;
+    align-items: flex-start;
+    display: inline-block;
+}
+
+.description{
+    padding:1%;
+    padding-left: 5%;
+    text-indent: 3%;
+    display: inline-block;
+    align-self: flex-start;
+}
+
 .avatar{
     width: 500px;
     height: 500px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 12%;
-   }
-
-   #box{
-    display: inline-flex; 
-    align-content: flex-end;
-    justify-content: space-around;  
-    flex-direction: column;
+    display: inline-block;
 }
 
 .description{
  min-width: 500px;
  max-width: 500px;
+ align-self:flex-start;
 }
    
 /* Styling the main part of my page*/
    main {
     width: 100%;
     background-color: rgb(222, 78, 34);
-    height: 50%;
+    height: 100%;
+
    }
+
 
 #Projects{
     color: #fefaec;
+
 }
 
 .screenshots{
-    max-width: 50%;
-    max-height: 50%;
+    max-block-size: 500px;
 }
 
 @media  (max-width: 990px) {
     #something{
-        width: auto;
+        width: 75%;
     }
 }
 
@@ -104,7 +114,7 @@ a:visited{
 
 }
 
-
+/* Styling my footer*/
 
 footer{
     color:#fefaec;
