@@ -2,13 +2,11 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - What was your motivation?
     My motivation was to create a professional looking website where I could present my work and build my website as I continue on with the course. 
 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-    To practice CSS, add styling and elements 
+- Why did you build this project? 
+    To practice CSS, add styling, using flexboxs and media queries to flex sections on top of each other. This would Also give my page a professional look to it. 
 
 - What problem does it solve?
     It solves the problem of compiling my current skills and projects in a professional way. It is responsive which means that the website can be viewed on multiple different screeen sizes. There are links to my external sites such as linkedin.  
@@ -16,28 +14,27 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
     I was able to apply flexbox elements as well as other css elements, I used a new font that I had seen from another website and used Google Fonts to apply it to my website. I also learned about making a navigation bar inherit the color of the elements rather than using default browser settings. 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-
 ## Installation
 
-Follow the link at the bottom of this page to open the 
+Follow the link at the bottom of this page to open the webpage.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To see the responsive elements, change the width of the page. Click on the navigation at the top right of the page to navigate to the different sections of the webpage. Click on the images of the different projects to navigate to the project attached to it. 
+
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+   ```md![alt text](Assets/Screen Shot 2022-07-18 at 11.38.02 PM.png)
+   
 
 ## Credits
 
-I had a tutoring session with Chris Baird. 
+I had a tutoring session with Chris Baird to change the color of the naviagtion bar from the presets to the color of the rest of the page. 
+
+I also had help during office hours with Meg Meyers. 
+
+I had problems with my page because I recieved two completely different approaches from the two tutors that saw for help on this page. 
 
 I referenced this website for helping get some of the elements of flexbox: 
 https://codepen.io/chriscoyier/pen/BaajoV 
@@ -53,4 +50,7 @@ If your project has a lot of features, list them here.
 
 ## Tests
 
-The following link will get you to you
+The following link will allow you to visit the professional website 
+
+ https://alejandraquintero018.github.io/Module-2-Challenge/
+

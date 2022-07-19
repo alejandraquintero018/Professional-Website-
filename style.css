@@ -6,9 +6,9 @@ body{
 
 p{
     padding:1%;
-    padding-left: 5%;
     text-indent: 3%;
 }
+
 h1{
     font-size: 90px;
     padding: 25px;
@@ -19,13 +19,16 @@ h2{
     display:flex;
     padding: 1%;
 }
+
 /* styling my header page */
-.flex-container{
+header{
     background-color: #fefaec;
     width: 100%;
     color:rgb(222, 78, 34);
-    display:flex;
     padding-bottom: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -36,12 +39,12 @@ ul{
     border-radius: 10px;
     margin: 12px;
     padding: 12px;
-    color:rgb(222, 78, 34);
+    color:inherit;
+    display: flex;
     flex-shrink: 0;
 }
 
 li{
-    display: inline;
     padding: 12px;
     color:rgb(222, 78, 34);
 }
@@ -50,84 +53,90 @@ a:visited{
     color: inherit;
 }
 
+a::before{
+    color:inherit;
+}
+
 /* styling the about me page*/ 
-#Get-To-Know-Me {
-    width: 100%;
+.style{
     background-color: #fefaec;
 }
 
-#box{
-    justify-content: flex-start;  
+/* styling the about me page*/ 
+/* Where i am defining the flexbox container and its properties*/
+.Get-To-Know-Me {
+    width: 100%;
+    background-color: #fefaec;
+    align-items: center;
+    padding-right: 5%;
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    display: inline-block;
+    justify-content: center;
 }
-
-.description{
-    padding:1%;
-    padding-left: 5%;
-    text-indent: 3%;
-    display: inline-block;
-    align-self: flex-start;
-}
-
+/* Where I am defining the properties of my image and description as a child of the container*/
 .avatar{
     width: 500px;
     height: 500px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 12%;
-    display: inline-block;
+    display: flex;
+    align-self: center;
 }
 
 .description{
  min-width: 500px;
  max-width: 500px;
+ padding:1%;
+ padding-left: 5%;
+ text-indent: 3%;
  align-self:flex-start;
+ display: flex;
 }
    
 /* Styling the main part of my page*/
    main {
     width: 100%;
     background-color: rgb(222, 78, 34);
-    height: 100%;
-
-   }
-
-
-#Projects{
-    color: #fefaec;
-
+    color:#fefaec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 0 23%;
 }
-
+/* Where I am defining the styliing of my screenshots because they would otherwise take up the entire page*/
 .screenshots{
-    max-block-size: 500px;
+    max-width: 800px;
+    padding: 2%;
 }
 
-@media  (max-width: 990px) {
-    #something{
-        width: 75%;
-    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 73%;
 }
 
-@media and (max-width: 550px) {
-
+.example{
+    flex: 0 0 23%;
+    flex: 50%;
 }
+
+.project{
+flex:100%;
+}
+
 
 /* Styling my footer*/
-
 footer{
     color:#fefaec;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #24242c;
     width: 100%;
-}
-
-#container{
-    justify-content: center;
-    width: 100%;
-    display:flex;
 }
 
 .icon{
