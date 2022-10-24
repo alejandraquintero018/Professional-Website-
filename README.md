@@ -1,4 +1,4 @@
-<Alejandra Quinteros's Professional Website>
+# Alejandra Quintero's Professional Website>
 
 ## Description
 
@@ -16,17 +16,16 @@
 
 ## Installation
 
-Follow the link at the bottom of this page to open the webpage.
+The following link will allow you to visit the professional website 
+
+https://alejandraquintero018.github.io/Professional-Website-/
+
 
 ## Usage
 
 To see the responsive elements, change the width of the page. Click on the navigation at the top right of the page to navigate to the different sections of the webpage. Click on the images of the different projects to navigate to the project attached to it. 
 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-   ```md![alt text](Assets/Screen Shot 2022-07-18 at 11.38.02 PM.png)
-   
+![alt text](Assets/Profile.png)
 
 ## Credits
 
@@ -44,13 +43,8 @@ I used some of the color and used the font from this personal website of a youtu
 https://www.mattdavella.com/ 
 
 
-## Features
-
-If your project has a lot of features, list them here.
-
-## Tests
 
 The following link will allow you to visit the professional website 
 
- https://alejandraquintero018.github.io/Module-2-Challenge/
+https://github.com/alejandraquintero018/Professional-Website-
 

@@ -106,7 +106,7 @@ a::before{
 }
 /* Where I am defining the styliing of my screenshots because they would otherwise take up the entire page*/
 .screenshots{
-    max-width: 800px;
+    max-width: 750px;
     padding: 2%;
 }
 
@@ -121,7 +121,7 @@ a::before{
 
 .example{
     flex: 0 0 23%;
-    flex: 50%;
+    flex: 45%;
 }
 
 .project{
